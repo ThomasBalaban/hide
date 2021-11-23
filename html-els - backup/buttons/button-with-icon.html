@@ -1,0 +1,53 @@
+<div class="hcd-button-container">
+    <a class="hcd-button-primary" href="#"><span class="exclamation-container"><span class='exclamation'></span></span>Click Here</a>
+  </div>
+  
+  <style>
+    .hcd-button-container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    
+    .hcd-button-container a:hover {
+        background-color: #009fdb;
+    }
+    
+     .hcd-button-container a:focus { 
+       background-color: #0057b8;
+       box-shadow: inset 0px 0px 0px 3px #0057b8, inset 0px 0px 0px 4px #fff;
+       transition: background-color 0.3s ease-in 0s;
+    }
+    
+    .hcd-button-container a:focus:hover {
+      box-shadow: 0px 0px 0px 3px #0057b8 inset, 0px 0px 0px 4px #dcdfe3 inset;
+    }
+    
+    .hcd-button-primary {
+      color: #fff;
+      line-height: 1;
+      padding: 10px 20px 14px;
+      display: block;
+      width: 100%;
+      background-color: #0057b8;
+    }
+    
+    .hcd-button-primary span.exclamation-container {
+      display: inline-block;
+      font-family: ETmodules!important;
+      font-size: 1rem;
+      margin: 0 10px 0 0;
+      top: 3px;
+      position: relative;
+      max-width: 25px;
+      overflow: hidden;
+    }
+    
+    .hcd-button-primary span.exclamation {
+      display: inline-block;
+      position: relative;
+      font-size: 1rem;
+      color: #fff;
+    }
+    
+  </style>
