@@ -1,0 +1,31 @@
+.hcd-button-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    a {
+
+        &:hover {
+            background-color: #009fdb;
+        }
+
+        &:focus { 
+            background-color: #0057b8;
+            box-shadow: inset 0px 0px 0px 3px #0057b8, inset 0px 0px 0px 4px #fff;
+            transition: background-color 0.3s ease-in 0s;
+        }
+
+        &:focus, &:hover {
+            box-shadow: 0px 0px 0px 3px #0057b8 inset, 0px 0px 0px 4px #dcdfe3 inset;
+        }
+    }
+}
+    
+.hcd-button-primary {
+    color: #fff;
+    line-height: 1;
+    padding: 10px 20px 14px;
+    display: block;
+    width: 100%;
+    background-color: #0057b8;
+}
