@@ -20,6 +20,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background: #dcdfe3;
+
+            &:hover {
+                cursor: not-allowed;
+                background: #dcdfe3;
+            }
 
             .button-text {
                 position: relative;
