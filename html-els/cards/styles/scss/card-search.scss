@@ -4,4 +4,23 @@
     h3 {
         color: $att-blue-dark;
     }
+
+    .header {
+        .left {
+            .icon {
+                svg {
+                    width: 25px;
+                    height: 25px;;
+                }
+            }
+        }
+        .right {
+            .icon {
+                svg {
+                    width: 25px;
+                    height: 25px;;
+                }
+            }
+        }
+    }
 }
