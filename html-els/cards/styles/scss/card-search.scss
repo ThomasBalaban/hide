@@ -84,11 +84,16 @@ $at-white: #fff;
         flex-wrap: nowrap;
         justify-content: space-between;
         width: 100%;
+        padding: 10px 0;
 
         .section {
             ul {
+                padding: 0 0 0 15px;
+                
                 li {
                     text-align: left;
+                    line-height: 1;
+                    padding: 3px 0;
                 }
             }
 
@@ -99,7 +104,12 @@ $at-white: #fff;
 
                 p:first-child {
                     margin: 0 10px 0 0;
+                    padding: 0 0 5px;
                 }
+            }
+
+            &:first-child {
+                padding: 0 20px 0 0;
             }
         }
     }
