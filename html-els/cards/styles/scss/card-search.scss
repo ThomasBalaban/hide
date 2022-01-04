@@ -115,6 +115,10 @@ $at-white: #fff;
     }
 
     .tags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
         .icon {
             width: 25px;
             height: 25px;
@@ -122,6 +126,21 @@ $at-white: #fff;
             svg {
                 width: 25px;
                 height: 25px;;
+            }
+        }
+
+        .tag-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin: 0 0 0 20px;
+
+            a {
+                border: 1px solid $att-blue-dark;
+                border-radius: 5px;
+                padding: 2px 10px;
+                margin: 0 10px;
             }
         }
     }
