@@ -14,7 +14,8 @@ $at-white: #fff;
     flex-wrap: wrap;
     width: 100%;
     border: 1px solid #E6E6E6;
-    padding: 10px 20px;
+    padding: 20px;
+    position: relative;
 
     // Re-usable flex calls
     .flex {
@@ -40,6 +41,12 @@ $at-white: #fff;
 
     h3 {
         color: $att-blue-dark;
+    }
+
+    .tools {
+        position: absolute;
+        top: 5px;
+        right: 5px;
     }
 
     .header {
@@ -121,6 +128,7 @@ $at-white: #fff;
     .tags {
         align-items: center;
         width: 100%;
+        margin: 10px 0 0;
 
         .icon {
             width: 25px;
