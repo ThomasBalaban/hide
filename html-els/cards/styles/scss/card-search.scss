@@ -46,7 +46,9 @@ $at-white: #fff;
     .tools {
         position: absolute;
         top: 5px;
-        right: 5px;
+        right: 10px;
+        font-size: 18px;
+        color: $att-blue-dark;
     }
 
     .header {
