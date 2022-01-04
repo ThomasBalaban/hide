@@ -16,6 +16,10 @@ $at-white: #fff;
     border: 1px solid #E6E6E6;
     padding: 10px 20px;
 
+    aside {
+        font-size: 12px;
+    }
+
     h3 {
         color: $att-blue-dark;
     }
@@ -28,10 +32,27 @@ $at-white: #fff;
         justify-content: space-between;
 
         .left {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+
             .icon {
+                width: 38px;
+
                 svg {
                     width: 25px;
                     height: 25px;;
+                }
+            }
+
+            .text {
+                display: flex;
+                flex-direction: row;
+                text-align: left;
+
+                h3 { 
+                    font-size: 18px;
+                    padding: 0;
                 }
             }
         }
