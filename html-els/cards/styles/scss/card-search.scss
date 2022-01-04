@@ -78,6 +78,7 @@ $at-white: #fff;
 
             .icon {
                 height: 24px;
+                margin: 0 10px 0 0;
 
                 svg {
                     width: 25px;
@@ -104,10 +105,6 @@ $at-white: #fff;
             }
 
             .data {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-
                 p:first-child {
                     margin: 0 10px 0 0;
                     padding: 0 0 5px;
