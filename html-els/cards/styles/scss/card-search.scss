@@ -18,6 +18,7 @@ $at-white: #fff;
 
     aside {
         font-size: 12px;
+        line-height: 1;
     }
 
     h3 {
@@ -37,11 +38,12 @@ $at-white: #fff;
             flex-direction: row;
 
             .icon {
-                width: 38px;
+                width: 47px;
+                background: blue;
 
                 svg {
-                    width: 25px;
-                    height: 25px;;
+                    width: 47px;
+                    height: 52px;;
                 }
             }
 
@@ -49,15 +51,25 @@ $at-white: #fff;
                 display: flex;
                 flex-direction: column;
                 text-align: left;
+                padding: 0 0 0 10px;
 
                 h3 { 
                     font-size: 18px;
-                    padding: 0;
+                    padding: 8px 0 4px;
+                    line-height: 1;
                 }
             }
         }
         .right {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            height: 30px;
+
             .icon {
+                height: 24px;
+
                 svg {
                     width: 25px;
                     height: 25px;;
