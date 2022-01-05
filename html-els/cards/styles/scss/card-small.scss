@@ -16,6 +16,10 @@ $at-white: #fff;
     padding: 20px;
     position: relative;
 
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
     // Re-usable flex calls
     .flex {
         display: flex;
