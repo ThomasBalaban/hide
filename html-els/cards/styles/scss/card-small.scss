@@ -47,6 +47,17 @@ $at-white: #fff;
         position: absolute;
         top: 5px;
         right: 5px;
+
+        .icon {
+            width: 47px;
+            height: 52px;
+            background: blue;
+
+            svg {
+                width: 47px;
+                height: 52px;;
+            }
+        }
     }
 
     .header {
