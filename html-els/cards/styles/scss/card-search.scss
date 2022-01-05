@@ -4,8 +4,11 @@ $att-grey-dark: #5a5a5a;
 $at-white: #fff;
 
 .et_pb_module.et_pb_code.et_pb_code_0.et_pb_text_align_center {
-    border: 1px solid #E6E6E6;
-    border-radius: 0;
+    overflow: visible !important;
+}
+
+.et_pb_code_0, .et_pb_code_1 {
+    overflow: visible !important;
 }
 
 .hcd-card {
