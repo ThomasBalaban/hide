@@ -12,7 +12,7 @@ $at-white: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 33%;
     border: 1px solid #E6E6E6;
     padding: 20px;
     position: relative;
@@ -43,12 +43,10 @@ $at-white: #fff;
         color: $att-blue-dark;
     }
 
-    .tools {
+    .top-badge {
         position: absolute;
         top: 5px;
-        right: 10px;
-        font-size: 18px;
-        color: $att-blue-dark;
+        right: 5px;
     }
 
     .header {
@@ -56,17 +54,6 @@ $at-white: #fff;
         justify-content: space-between;
 
         .left {
-
-            .icon {
-                width: 47px;
-                height: 52px;
-                background: blue;
-
-                svg {
-                    width: 47px;
-                    height: 52px;;
-                }
-            }
 
             .text {
                 flex-direction: column;
@@ -76,7 +63,8 @@ $at-white: #fff;
                 h3 { 
                     font-size: 18px;
                     padding: 8px 0 4px;
-                    line-height: 1;
+                    line-height: 1.2;
+                    word-break: break-word;
                 }
             }
         }
