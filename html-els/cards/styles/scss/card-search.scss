@@ -80,6 +80,10 @@ $at-white: #fff;
                     font-size: 18px;
                     padding: 8px 0 4px;
                     line-height: 1;
+
+                    @media screen and (max-width: 768px) {
+                        word-break: break-word;
+                    }
                 }
             }
         }
@@ -105,6 +109,10 @@ $at-white: #fff;
         justify-content: space-between;
         width: 100%;
         padding: 10px 0;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
 
         .section {
             ul {
@@ -135,6 +143,10 @@ $at-white: #fff;
         width: 100%;
         margin: 10px 0 0;
 
+        @media screen and (max-width: 768px) {
+            overflow-x: scroll;
+        }
+
         .icon {
             width: 25px;
             height: 25px;
@@ -156,6 +168,11 @@ $at-white: #fff;
                 margin: 0 10px;
                 color: $att-blue-dark;
                 text-transform: capitalize;
+
+                @media screen and (max-width: 768px) {
+                    line-height: 1;
+                    padding: 5px 12px 2px;
+                }
             }
         }
 
