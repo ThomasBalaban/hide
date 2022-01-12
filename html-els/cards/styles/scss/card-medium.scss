@@ -46,12 +46,21 @@ $at-white: #fff;
         color: $att-blue-dark;
     }
 
-    .tools {
+    .top-badge {
         position: absolute;
         top: 5px;
         right: 10px;
-        font-size: 18px;
-        color: $att-blue-dark;
+        align-items: center;
+
+        .icon {
+            height: 24px;
+            margin: 0 10px 0 0;
+
+            svg {
+                width: 25px;
+                height: 25px;;
+            }
+        }
     }
 
     .header {
@@ -118,6 +127,18 @@ $at-white: #fff;
             flex-direction: column;
         }
 
+        .extra-info {
+            .icon {
+                height: 24px;
+                margin: 0 10px 0 0;
+    
+                svg {
+                    width: 25px;
+                    height: 25px;;
+                }
+            }
+        }
+
         .section {
             ul {
                 padding: 0 0 0 15px;
@@ -147,6 +168,7 @@ $at-white: #fff;
             &:last-child {
                 border-left: 1px solid #E6E6E6;
                 padding: 0 0 0 20px;
+                width: 150px;
 
                 @media screen and (max-width: 768px) {
                     padding: 0 0 10px;
