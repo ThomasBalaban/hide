@@ -15,7 +15,7 @@ $at-white: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 66%;
+    width: 100%;
     border: 1px solid #E6E6E6;
     padding: 20px;
     position: relative;
@@ -174,7 +174,7 @@ $at-white: #fff;
                 }
             }
 
-            &:last-child {
+            &.right-aligned {
                 border-left: 1px solid #E6E6E6;
                 padding: 0 0 0 20px;
                 min-width: 150px;
@@ -193,6 +193,10 @@ $at-white: #fff;
                 p {
                     line-height: 1;
                 }
+            }
+
+            &.expnaded-information {
+                width: 100%;
             }
         }
     }
