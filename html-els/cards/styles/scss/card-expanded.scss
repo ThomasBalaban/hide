@@ -58,6 +58,20 @@ $at-white: #fff;
         color: $att-blue-dark;
     }
 
+    .card-content-seperator {
+
+        .left {
+            width: 80%;
+            padding: 0 10px 0 0;
+        }
+
+        .right {
+            width: 20%;
+            padding: 0 0 0 10px;
+            border-left: 1px solid #E6E6E6;
+        }
+    }
+
     .header {
         width: 100%;
         justify-content: space-between;
