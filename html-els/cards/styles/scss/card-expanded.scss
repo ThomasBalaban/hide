@@ -71,13 +71,30 @@ $at-white: #fff;
             border-left: 1px solid #E6E6E6;
 
             ul {
-                padding: 0 0 0 23px;
+                padding: 0;
+                text-align: left;
 
                 li {
                     list-style-type: none;
+                    padding: 5px 0;
 
                     &::before {
-                        content: "-";
+                        content: "\8211";
+                    }
+
+                    ul {
+                        padding: 0 0 0 20px;
+
+                        li {
+
+                            ul {
+                                padding: 0 0 0 40px;
+
+                                li {
+                                    content: "";
+                                }
+                            }
+                        }
                     }
                 }
             }
