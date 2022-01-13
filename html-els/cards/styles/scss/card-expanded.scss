@@ -69,6 +69,17 @@ $at-white: #fff;
             width: 25%;
             padding: 0 0 0 10px;
             border-left: 1px solid #E6E6E6;
+
+            ul {
+                padding: 0 0 0 23px;
+            }
+
+            p {
+                line-height: 1;
+                text-align: left;
+                word-break: break-all;
+                padding: 0 0 10px;
+            }
         }
     }
 
@@ -220,12 +231,6 @@ $at-white: #fff;
 
                 .data {
                     width: 50%;
-
-                    p {
-                        line-height: 1;
-                        text-align: left;
-                        word-break: break-all;
-                    }
                 }
             }
         }
