@@ -1,6 +1,7 @@
 $att-blue: #009fd8;
 $att-blue-dark: #0568ae;
 $att-grey-dark: #5a5a5a;
+$att-light-gray: #d2d2d2;
 $at-white: #fff;
 
 .et_pb_module.et_pb_code.et_pb_code_0.et_pb_text_align_center {
@@ -73,13 +74,19 @@ $at-white: #fff;
             ul {
                 padding: 0;
                 text-align: left;
+                font-weight: bold;
 
                 li {
                     list-style-type: none;
                     padding: 5px 0;
 
+                    span.selected {
+                        background: $att-light-gray;
+                    }
+
                     &::before {
-                        content: "\8211";
+                        content: "\2013";
+                        margin-right: 5px;
                     }
 
                     ul {
@@ -91,7 +98,10 @@ $at-white: #fff;
                                 padding: 0 0 0 40px;
 
                                 li {
-                                    content: "";
+
+                                    &::before {
+                                        content: "";
+                                    }
                                 }
                             }
                         }
@@ -100,10 +110,10 @@ $at-white: #fff;
             }
 
             p {
-                line-height: 1;
+                line-height: 1.2;
                 text-align: left;
                 word-break: break-all;
-                padding: 0 0 10px;
+                padding: 0 0 15px;
             }
         }
     }
