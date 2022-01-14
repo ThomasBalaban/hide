@@ -65,15 +65,32 @@ $at-white: #fff;
 
     .card-content-seperator {
 
+        @media screen and (max-width: 768px) {
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+        }
+
         .left {
             width: 75%;
             padding: 0 20px 0 0;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
         }
 
         .right {
             width: 25%;
             padding: 0 0 0 20px;
             border-left: 1px solid #E6E6E6;
+
+            @media screen and (max-width: 768px) {
+                border-left: none;;
+                border-top: 1px solid #E6E6E6;
+                padding: 20px 0;
+                width: 100%;
+            }
 
             ul {
                 padding: 0;
@@ -272,8 +289,17 @@ $at-white: #fff;
                 width: 100%;
                 padding: 20px 0 0;
 
+                @media screen and (max-width: 768px) {
+                    flex-direction: column;
+                }
+
                 .data {
                     width: 50%;
+
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                        justify-content: space-between;
+                    }
                 }
             }
         }
@@ -286,6 +312,8 @@ $at-white: #fff;
 
         @media screen and (max-width: 768px) {
             overflow-x: scroll;
+            margin: 0 0 20px;
+            padding: 0 0 15px;
         }
 
         .icon {
