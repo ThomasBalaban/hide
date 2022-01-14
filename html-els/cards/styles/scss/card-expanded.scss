@@ -88,7 +88,7 @@ $at-white: #fff;
             @media screen and (max-width: 768px) {
                 border-left: none;;
                 border-top: 1px solid #E6E6E6;
-                padding: 20px 0;
+                padding: 20px 0 0;
                 width: 100%;
             }
 
@@ -227,6 +227,11 @@ $at-white: #fff;
         .extra-info {
             margin-left: 55px;
             align-items: center;
+
+            @media screen and (max-width: 768px) {
+                margin: 5px 0 10px;
+                justify-content: center;
+            }
 
             .icon {
                 height: 24px;
