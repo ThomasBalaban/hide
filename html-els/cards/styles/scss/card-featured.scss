@@ -56,6 +56,8 @@ $at-white: #fff;
 
     .top-badge {
         align-items: center;
+        width: 100%;
+        justify-content: center;
 
         .icon {
             height: 24px;
@@ -73,6 +75,7 @@ $at-white: #fff;
         justify-content: space-between;
 
         .left {
+            justify-content: center;
 
             .icon {
                 width: 47px;
@@ -89,6 +92,7 @@ $at-white: #fff;
                 flex-direction: column;
                 text-align: left;
                 padding: 0 0 0 10px;
+                text-align: center;
 
                 h3 { 
                     font-size: 18px;
@@ -121,6 +125,22 @@ $at-white: #fff;
         width: 100%;
         padding: 10px 0;
 
+        .extra-info {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            .icon {
+                height: 24px;
+                margin: 0 10px 0 0;
+    
+                svg {
+                    width: 25px;
+                    height: 25px;;
+                }
+            }
+        }
+
         .section {
             ul {
                 padding: 0 0 0 15px;
@@ -136,5 +156,9 @@ $at-white: #fff;
                 padding: 0 20px 0 0;
             }
         }
+    }
+
+    .hcd-button-container {
+        margin: 0 auto;
     }
 }
