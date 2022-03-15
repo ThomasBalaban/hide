@@ -4,11 +4,11 @@
     .animation-container {
         margin: 0 auto;
         max-width: 250px;
-        height: 250px;
+        height: 150px;
         position: relative;
 
         .coin, .dollar {
-            height: 250px;
+            height: 150px;
             width: 250px;
 
             svg {
@@ -20,7 +20,7 @@
         .coin {
             svg {
                 position: absolute;
-                animation: linear 1s coin 0.5s forwards;
+                animation: linear 0.7s coin 0.5s forwards;
                 top: 0px;
                 filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
             }
@@ -35,7 +35,7 @@
                 fill: #24c224;
                 top: 0;
                 opacity: 0;
-                animation: linear 0.6s dollar 1.5s forwards;
+                animation: linear 0.6s dollar 1.2s forwards;
             }
         }
     }
@@ -101,19 +101,19 @@
     }
 
     25% {
-        top: -150px;
+        top: -75px;
         transform-origin: 50% 100%;
         transform: scale(1, 1.1);
     }
     
     35% {
-        top: -170px;
+        top: -95px;
         transform: scale(1, 1.2);
         transform-origin: 50% 50%;
     }
 
     45% {
-        top: -150px;
+        top: -75px;
         transform-origin: 50% 100%;
         transform: scale(1, 1.1);
     }
