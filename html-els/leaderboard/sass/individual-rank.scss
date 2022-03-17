@@ -28,10 +28,18 @@
 
         .rank {
             font-size: 34px;
+            
+            p {
+                line-height: 1.2;
+            }
         }
 
         .out-of {
             font-size: 14px;
+
+            p {
+                line-height: 1;
+            }
         }
     }
 }
