@@ -35,17 +35,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background: #fff;
+        border: 1px solid #686E74;
+        width: 100%;
+        padding: 40px 0 20px;
+        border-radius: 5px;;
+        filter: drop-shadow(3px 3px 5px rgb(0 0 0 / 0.2));
 
         .current-ranking {
             background: #0568AE;
             border-radius: 150px;
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: #fff;
+            padding: 5px 0 0;
     
             p {
                 margin: 0;
@@ -62,7 +69,7 @@
             .out-of {
                 p {
                     line-height: 1;
-                    font-size: 14px;
+                    font-size: 18px;
                 }
             }
         }
