@@ -40,7 +40,8 @@
         width: 100%;
         padding: 40px 0 0;
         border-radius: 5px;;
-        filter: drop-shadow(3px 3px 5px rgb(0 0 0 / 0.2));
+        filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.3));
+        overflow: hidden;
 
         .current-ranking {
             background: #0568AE;
@@ -82,7 +83,7 @@
     
             .coin {
                 width: 65px;
-                height: 65px;
+                height: 66px;
                 
                 svg {
                     width: 65px;
@@ -105,7 +106,7 @@
             align-items: center;
             background: #C70032;
             width: 100%;
-            padding: 10px 0;
+            padding: 15px 0;
 
             a {
                 text-decoration: none;
