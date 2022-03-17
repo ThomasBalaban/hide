@@ -1,0 +1,37 @@
+.individual-ranking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #454B52;
+    border-radius: 5px;
+
+    .title {
+        font-size: 24px;
+    }
+
+    .current-ranking {
+        background: #0568AE;
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .rank {
+            font-size: 34px;
+        }
+
+        .out-of {
+            font-size: 14px;
+        }
+    }
+}
