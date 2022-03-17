@@ -1,6 +1,6 @@
 .animated-coin {
     margin: 20px 0 0;
-    
+
     .animation-container {
         margin: 0 auto;
         max-width: 250px;
@@ -32,7 +32,7 @@
                 stroke-width: 2px;
                 filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
                 position: absolute;
-                fill: #24c224;
+                fill: #FFB000;
                 top: 0;
                 opacity: 0;
                 animation: linear 0.6s dollar 1.2s forwards;
