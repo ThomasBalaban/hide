@@ -20,11 +20,12 @@
 
         p {
             color: #fff;
-            font-size: 20px;
+            font-size: 32px;
             padding: 0;
+            line-height: 1;
 
             sup {
-                font-size: 12px;
+                font-size: 16px;
                 bottom: 0.8em;
             }
         }
@@ -38,7 +39,7 @@
 
         .rank-item {
             border-bottom: 1px solid #DCDFE3;
-            padding: 10px;
+            padding: 10px 15px;
 
             .profile {
                 display: flex;
@@ -70,8 +71,7 @@
                         padding: 0;
 
                         &:first-child {
-                            font-weight: bold;
-                            font-size: 18px;
+                            font-size: 22px;
                         }
 
                         &:last-child {
@@ -86,7 +86,19 @@
                     flex-wrap: nowrap;
                     align-items: center;
                     margin-left: auto;
-                    margin-right: 20px;
+                    position: relative;
+                    padding: 0 0 0 20px;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        height: 70%;
+                        width: 2px;
+                        background: #009FDB;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
 
                     .coin {
                         height: 50px;
