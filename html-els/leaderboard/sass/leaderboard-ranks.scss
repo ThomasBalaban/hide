@@ -16,7 +16,7 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-around;
-        padding: 0 1px 0 3px;
+        padding: 0 5px 0 7px;
 
         p {
             color: #fff;
@@ -37,10 +37,25 @@
         width: 100%;
 
         .rank-item {
+            border-bottom: 1px solid #DCDFE3;
+            padding: 10px;
+
             .profile {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
+
+                .image {
+                    max-width: 75px;
+                    max-height: 75px;
+                    border-radius: 75px;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
 
                 .information {
                     display: flex;
