@@ -1,0 +1,73 @@
+.leaderboard-ranks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .ranking-bar {
+        background: rgb(2,0,36);
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,121,177,1) 0%, rgba(0,201,255,1) 100%);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+        p {
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    .rank-items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .rank-item {
+            .profile {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                .information {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-items: flex-start;
+                    justify-content: center;
+
+                    p {
+                        margin: 0;
+                        padding: 0;
+
+                        &:first-child {
+                            font-size: 18px;
+                        }
+
+                        &:last-child {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .coin-count {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    margin-left: auto;
+
+                    .coin {
+                        height: 50px;
+                        width: 50px;
+
+                        svg {
+                            height: 50px;
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
