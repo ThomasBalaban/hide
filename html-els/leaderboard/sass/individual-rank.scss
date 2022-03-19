@@ -6,6 +6,12 @@
     max-width: 320px;
     margin: 0 auto;
 
+    .top-bar {
+        height: 10px;
+        width: 100%;
+        background: #91DC00;
+    }
+
     .rank-details {
         display: flex;
         flex-direction: column;
@@ -79,14 +85,14 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            background: #C70032;
+            background: #DCDFE3;
             width: 100%;
             padding: 15px 0;
 
             a {
                 text-decoration: none;
                 font-size: 18px;
-                color: #fff;
+                color: #000;
             }
         }
     }
