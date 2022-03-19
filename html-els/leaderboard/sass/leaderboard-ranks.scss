@@ -1,12 +1,26 @@
 .leaderboard-ranks {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background: #fff;
     border: 1px solid #DCDFE3;
     border-radius: 5px;;
     filter: drop-shadow(2px 5px 2px rgba(0, 0, 0, 0.1));
     overflow: hidden;
+
+    .leader-board {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .leaderboard-title {
+        width: 100%;
+        text-align: center;
+        background: #EA712F;
+        color: #fff;
+    }
 
     .ranking-bar {
         background: rgb(2,0,36);
